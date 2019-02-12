@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Test</title>
+<script type="text/javascript">
+  var imageURLs = [
+       "http://bitly.kr/w9nOk"
+     , "http://bitly.kr/gsWAv"
+     , "http://bitly.kr/wkYBz"
+     , "http://bitly.kr/xUII3"
+     , "http://bitly.kr/Ohrn0"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"Some alt text\"/>';
+    return img;
+  }
+</script>
+</head>
+<body>
+<script type="text/javascript">
+  document.write(getImageTag());
+</script>
+</body>
+</html>
