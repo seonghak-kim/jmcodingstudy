@@ -14,6 +14,7 @@
 
 ## Element
 * opening tag + content + closing tag
+* `<p>seonghak kim</p>`
 
 ## 구조
 * HTML은 계층적 구조를 가지고 있다.
@@ -30,5 +31,63 @@
 ## Attribute
 * name 과 value 존재
 * id="~"
-  
+* `<div id="introduction"></div>`
+
+---
+
+## Displaying Text
+
+* `<p>` - paragraph </p>
+* `<span>` - 따로 떼 두는 것. 문장안에서(cf, div)
+
+## Styling Text
+
+* `<em></em>` - 강조, <em>이탤릭 서체</em>
+* `<strong></strong>` - 굵게, <strong>bold</strong>
+
+## Line Breaks
+
+* `<br>` - 한줄 띄기, `closing tag 없음!!`
+
+
+## Unordered List
+
+* `<ul></ul>` - 땡땡이로 나열할때
+리스트 앞뒤로 `<li></li>` 표기
+
+```html
+<ul>
+  <li>이렇게</li>
+  <li>요렇게</li>
+</ul>
+```
+
+## Ordered Lists
+
+* `<ol></ol>` - 숫자로 순서 나열할때
+리스트 앞뒤로 `<li></li>`표기
+
+```HTML
+<ol>
+  <li>이렇게</li>
+  <li>요렇게</li>
+</ol>
+```
+
+## Images
+
+* `<img src="image-location.jpg" />`
+* img는 클로징태그 없이 끝에 한칸 띄고 슬래쉬하고 닫기
+* src="URL(Uniform resource locator)"
+
+## Alt
+
+* Alt = alternative text(이미지를 대처하는 용도, 손상된이미지나 마우스오버시)
+
+`<img src="~" alt="설명" />`
+
+---
+
+
+
 ---
